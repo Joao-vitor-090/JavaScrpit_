@@ -3,12 +3,12 @@ Realizei três exercícios onde uso bastante lógica de programação e foco em 
 <p style = "text-aligh = justify">Elaborei 3 projetos com foco em Javascript.
 Os projetos são iniciados em :</p>
 <ul>
-<li><a href = "https://github.com/Joao-vitor-090/JavaScrpit_/new/main?readme=1#verificador-de-idade">Verificador de Idade</a>
+<li><a href = "#">Verificador de Idade</a>
 <li><a href = "#" >Verificador da hora do dia</a>
 <li><a href = "#" >Tabuada</a>
 </ul>
 
-# Verificador de Idade
+# <h1>Veirificador de imagem</h1>
 
 <p text-aligh = center>Este projeto calcula sua idade pelo ano emitido pelo usuário e resulta em uma imagem dinâmica de acordo com a faixa etária do mesmo.</p>
 <a href="https://ibb.co/HBvcHh8"><img src="https://i.ibb.co/MZTzCB0/Whats-App-Image-2021-11-22-at-10-11-21.jpg" alt="Whats-App-Image-2021-11-22-at-10-11-21" border="0" /></a>
