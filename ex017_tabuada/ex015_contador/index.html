@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar ?</h1>
+        <nav>
+            <a href="../ex013/index.html">Verificar de idade</a>
+            <a href="../ex012/index.html">Hora do dia</a>
+            <a href="../index.html">Tabuada</a>
+       </nav>
+    </header>
+    <section>
+        <div>
+            <dt>
+                <dd>
+                    <label for="inicio">Início :</label>
+                    <input type="number" name="inicio" id="ini">
+                </dd>
+                <dd>
+                    <label for="fim">Fim :</label>
+                    <input type="number" name="fim" id="fim">
+                </dd>
+                <dd>
+                    <label for="pular">Pular :</label>
+                    <input type="number" name="pular" id="pular">
+                </dd>
+            </dt>
+            <div class="botao">
+                <input type="button" value="contar" id="contar" onclick="contar()">
+            </div>
+        </div>
+        <article>
+            <p id="resul"></p>
+        </article>
+    </section>
+    <footer><a href="#">ϕ João Vitor Ferreira</a></footer>
+    <script src="appdata.js"></script>
+</body>
+</html>

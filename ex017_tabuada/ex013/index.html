@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+        <nav>
+            <a href="../ex015_contador/index.html">Contador</a>
+            <a href="../ex012/index.html">Hora do dia</a>
+            <a href="../index.html">Tabuada</a>
+       </nav>
+    </header>
+    <section>
+        <div class="primeira">
+            <label for="nascano">Ano de nascimento : </label>
+            <input type="number" name="nascano" id="nascano">
+        </div>
+        <div class="segunda">
+            <p>
+                <input type="radio" name="sex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="sex" id="femin">
+                <label for="femin">Feminino</label>
+            </p>
+        </div>
+        <button onclick="verificar()">
+            Verificar
+        </button>
+        <p id="txt"></p>
+        <p id="txt2"></p>
+        <div class=img><img src="#" alt="img"></div>
+    </section>
+    <footer><a href="#">ϕ João Vitor Ferreira</a></footer>
+    <script src="appdata.js"></script>
+</body>
+</html>
